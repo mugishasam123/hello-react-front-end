@@ -1,0 +1,27 @@
+.greeting-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.button1 {
+  padding: 3px 7px;
+  background-color: rgb(21, 206, 21);
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.button2 {
+  padding: 3px 7px;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button3 {
+  padding: 3px 7px;
+  background-color: rgb(41, 168, 177);
+  color: #fff;
+  text-decoration: none;
+}
