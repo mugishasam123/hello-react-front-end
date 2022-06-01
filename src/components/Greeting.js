@@ -15,7 +15,7 @@ const Greeting = () => {
   return (
     <div className="greeting-wrapper">
       <h1>Rails-React exercise</h1>
-      <h2 className="text">{greeting.message}</h2>
+      <h2 className="text">{greeting}</h2>
       <button
         onClick={() => dispatch(getGreetingsFromApi())}
         className="button1"

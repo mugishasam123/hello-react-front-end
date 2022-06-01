@@ -10,14 +10,9 @@ const getGreetings = (payload) => ({
 });
 
 export const getGreetingsFromApi = () => async (dispatch) => {
-  const result = await Axios.get('http://localhost:3001/api/v1/messages', {
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Content-Type': 'application/json',
-    },
-  });
+  const result = await Axios.get('http://localhost:3001/api/v1/messages');
   const req = result.data.greetings.greeting;
-  console.log(req);
+
   dispatch(getGreetings(req));
 };
 
